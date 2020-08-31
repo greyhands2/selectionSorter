@@ -89,6 +89,6 @@ function sorter(sData, type){
 }
 
 
-console.log(sorter(7), 'highest');
+console.log(sorter(7, 'highest'));
 console.log(sorter([35, 88, 111, 61, 94, 156, 141], 'lowest'));
 console.log(sorter({"the black keys": 35, "radiohead":156, "neutral milk hotel": 94, "wilco": 111, "beck": 88, "the strokes": 61, "kishore kumar": 141}, 'highest'));
