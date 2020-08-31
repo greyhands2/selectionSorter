@@ -73,7 +73,7 @@ function sorter(sData, type){
   };
 
   if(!typer()) return null;
-    const initLength = typer === 'array' ? gData.length : Object.keys(gData).length;
+    const initLength = typer() === 'array' ? gData.length : Object.keys(gData).length;
 
       for( r=0; r< initLength; r++){
 
