@@ -46,8 +46,7 @@ function sorter(sData, type){
 
           }
           if(marker) {
-            // remove data from array using splice and the index of data, get the data index with indexOf()
-            //uncomment next line and notice something
+      
 
             sortedData.push({[i] : gData[i]});
             delete gData[i];
@@ -62,7 +61,7 @@ function sorter(sData, type){
 
 
   }
-  //u have to use this constant variable here else something funny happens
+
   const selectionSorter =(data)=>{
     gData=data;
     let r;
